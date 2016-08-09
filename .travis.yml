@@ -1,14 +1,5 @@
-language: python
-python:
- - "3.5"
 install:
  - pip install --user requests
  - git clone git://github.com/aklsglaliyu/travis scripts
 script:
  - python scripts/build.py
-#deploy:
-# provider: script
-# script: python scripts/deploy/wowinterface.py
-# skip_cleanup: true
-# on:
-#  tags: true
