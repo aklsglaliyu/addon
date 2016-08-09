@@ -1,5 +1,6 @@
 install:
  - pip install --user requests
+ - pip install --user PyYAML
  - git clone git://github.com/aklsglaliyu/travis scripts
 script:
  - python scripts/build.py
