@@ -1,0 +1,4 @@
+package-as: test
+
+externals:
+	LibStub: git://github.com/wowace-mirror/LibStub
